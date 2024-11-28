@@ -4,16 +4,6 @@
 /** @var  $ml */
 ?>
 
-
-
-
-
-
-
-
-
-
-
 <div class="container-fluid">
 <header class="bg-light py-4">
     <div class="container-custom">
