@@ -5,20 +5,19 @@
 ?>
 
 <footer class="text-center text-lg-start text-white footer">
-    <div class="container text-center text-md-start mt-5">
+    <div class="container-fluid text-center text-md-start mt-5">
         <div class="row mt-3">
             <!-- Map Section -->
-            <div class="col-lg-6 col-md-12 mb-4 mapFrame">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.259909694719!2d44.50666767612675!3d40.20328106860278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd3844502d8f%3A0xeba0eb8c45a865c3!2s27%2017th%20Street%2C%20Yerevan!5e0!3m2!1sru!2sam!4v1732377472676!5m2!1sru!2sam"
-                    width="100%"
-                    height="450px"
-                    style="border:0; border-radius: 10px;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
+                <div class="col-lg-6 col-md-8 mb-4 mb-md-0 mapFrame">
+                    <div class="position-relative" style="overflow:hidden; max-width:100%; border-radius: 10px;">
+                        <div class="mt-4">
+                            <iframe src="https://yandex.com/map-widget/v1/?ll=44.495053%2C40.175058&mode=whatshere&whatshere%5Bpoint%5D=44.495182%2C40.174424&whatshere%5Bzoom%5D=17&z=16"
+                                    width="100%" height="380" frameborder="1" allowfullscreen="true"
+                                    style="border:0; border-radius: 10px;">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
 
             <!-- Form Section -->
             <div class="col-lg-6 col-md-12 mb-4">
