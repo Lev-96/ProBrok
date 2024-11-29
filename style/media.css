@@ -96,7 +96,12 @@
         padding: 8px 10px;
     }
 }
-
+@media (min-width: 390px) and (min-height: 844px) {
+    .phoneItem{
+        white-space: nowrap;
+        flex-direction: row;
+    }
+}
 /* For Extra Small Screens (Very Small Phones) */
 @media (max-width: 400px) {
     .navbar-nav .nav-link {
