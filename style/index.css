@@ -6,14 +6,13 @@
     transition: top 0.3s ease;
     background-color: rgba(255, 255, 255, 0.85);
 }
-
 .navbar .dropdown {
     position: relative;
     z-index: 1050;
 }
 
 .nav-img {
-    width: 100px;
+    width: 130px;
 }
 .img-logo {
     width: 100%;
@@ -117,11 +116,41 @@ h2 {
 html, body {
     background-color: #f9f9f9;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+}
+html {
+    scroll-padding-top: 100px;  /* Высота фиксированного меню */
+}
+
+a[href^="#"] {
+    scroll-margin-top: 100px;
+}
+
+
+.container-fluid .contentSection[id] {
+    scroll-margin-top: 170px;
+}
+
+
+.container-fluid .contentSection:last-child {
+    scroll-margin-bottom: 120px;
 }
 
 .section-image {
     width: 50%;
     object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img-left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.img-right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .section-text {
@@ -167,9 +196,9 @@ html, body {
 }
 
 .card-blue {
-    background-color: #8f22147a ;
+    background-color: rgba(255, 255, 255, 0.16);
 }
 
 .card-dark {
-    background-color: #1f2244bd;
+    background-color: #49505742;
 }

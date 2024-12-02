@@ -55,7 +55,7 @@ $sectorArr = [
         $alignmentClass = array_search($key, array_keys($sectorArr)) % 2 === 0 ? 'flex-row' : 'flex-row-reverse';
         ?>
         <section class="contentSection d-flex align-items-center <?= $index % 2 === 0 ? 'card-blue' : 'card-dark' ?> <?= $alignmentClass ?>" id="<?= $key ?>">
-            <img src="./images/sectionImage/<?= $sector['img'] ?>" alt="Placeholder Image" class="section-image">
+            <img src="./images/sectionImage/<?= $sector['img'] ?>" alt="Placeholder Image" class="section-image <?= $index % 2 === 0 ? 'img-left' : 'img-right' ?>">
             <div class="d-flex flex-column section-text">
                 <?= $sector['text'] ?>
             </div>
