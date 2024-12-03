@@ -63,15 +63,15 @@
                 </div>
                 <div class="offcanvas-body">
                    <div class="navbar-nav mx-auto">
-                       <a class="nav-link mb-3" href="#Մաքսային" id="item1"><?= $ml->tr('customs') ?></a>
-                       <a class="nav-link mb-3" href="#Թույլատվություն" id="item2"><?= $ml->tr('permission') ?></a>
-                       <a class="nav-link mb-3" href="#Նախնական" id="item3"><?= $ml->tr('preliminary') ?></a>
-                       <a class="nav-link mb-3" href="#EAC" id="item4"><?= $ml->tr('eac') ?></a>
-                       <a class="nav-link mb-3" href="#Դասակարգում" id="item5"><?= $ml->tr('classification') ?></a>
-                       <a class="nav-link mb-3" href="#Վերամշակման" id="item6"><?= $ml->tr('processing') ?></a>
-                       <a class="nav-link mb-3" href="#Առաքում" id="item7"><?= $ml->tr('shipment') ?></a>
-                       <a class="nav-link mb-3" href="#ԱՏԳ" id="item8"><?= $ml->tr('gis') ?></a>
-                       <a class="nav-link mb-3" href="#Ապրանք" id="item9"><?= $ml->tr('goods') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Մաքսային" id="item1"><?= $ml->tr('customs') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Թույլատվություն" id="item2"><?= $ml->tr('permission') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Նախնական" id="item3"><?= $ml->tr('preliminary') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#EAC" id="item4"><?= $ml->tr('eac') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Դասակարգում" id="item5"><?= $ml->tr('classification') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Վերամշակման" id="item6"><?= $ml->tr('processing') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Առաքում" id="item7"><?= $ml->tr('shipment') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#ԱՏԳ" id="item8"><?= $ml->tr('gis') ?></a>
+                       <a class="nav-link mb-3 border-0 text-center" href="#Ապրանք" id="item9"><?= $ml->tr('goods') ?></a>
                    </div>
                 </div>
             </div>

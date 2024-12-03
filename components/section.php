@@ -44,8 +44,8 @@ $sectorArr = [
 ?>
 <div class="container-fluid">
     <section class=" d-flex align-items-center flex-column text-center">
-        <div class="d-flex flex-column justify-content-center align-items-center  text-center section-text p-4">
-            <h2 class="text-center"><?= $ml->tr('about') ?></h2>
+        <div class="d-flex flex-column justify-content-center align-items-center  text-center section-text p-4 mt-4 w-100">
+            <h2 class="text-center lh-base"><?= $ml->tr('about') ?></h2>
             <h4 class="text-center"><?= $ml->tr('in_particular') ?></h4>
         </div>
     </section>
@@ -55,10 +55,12 @@ $sectorArr = [
         $alignmentClass = array_search($key, array_keys($sectorArr)) % 2 === 0 ? 'flex-row' : 'flex-row-reverse';
         ?>
         <section class="contentSection d-flex align-items-center <?= $index % 2 === 0 ? 'card-blue' : 'card-dark' ?> <?= $alignmentClass ?>" id="<?= $key ?>">
-            <img src="./images/sectionImage/<?= $sector['img'] ?>" alt="Placeholder Image" class="section-image <?= $index % 2 === 0 ? 'img-left' : 'img-right' ?>">
-            <div class="d-flex flex-column section-text">
-                <?= $sector['text'] ?>
-            </div>
+           <div class="text_and_img_position">
+               <img src="./images/sectionImage/<?= $sector['img'] ?>" alt="Placeholder Image" class="section-image">
+               <div class="d-flex flex-column section-text p-4">
+                   <?= $sector['text'] ?>
+               </div>
+           </div>
         </section>
         <?php $index++; ?>
     <?php endforeach; ?>

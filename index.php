@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Pro Brok</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style/index.css" type="text/css">
     <link rel="stylesheet" href="./style/media.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,7 +16,7 @@
           rel="stylesheet">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="/images/logo/logo2.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/logo/logo1.svg" type="image/x-icon">
 
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -25,16 +25,18 @@
     <script src="./js/index.js" defer></script>
 </head>
 <body>
-<!--  Send message in mail  -->
-<?php include('flash-message.php') ?>
+<div class="container-fluid">
+    <!--  Send message in mail  -->
+    <?php include('flash-message.php') ?>
 
-<!-- Navbar -->
-<?php include 'components/navbar.php' ?>
-
-<!--Section with Text-->
-<?php include 'components/section.php' ?>
-
-<!--Footer-->
-<?php include 'components/footer.php' ?>
+    <!-- Navbar -->
+    <?php include 'components/navbar.php' ?>
+    <div class="container">
+        <!--Section with Text-->
+        <?php include 'components/section.php' ?>
+    </div>
+    <!--Footer-->
+    <?php include 'components/footer.php' ?>
+</div>
 </body>
 </html>

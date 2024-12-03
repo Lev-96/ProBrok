@@ -23,7 +23,7 @@
             <div class="col-lg-6 col-md-12 mb-4">
                 <h6 class="text-uppercase fw-bold"><?= $ml->tr('contact_us') ?></h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px;" />
-                <form method="POST" action="mailer.php">
+                <form method="POST" action="./mailer.php">
                     <div class="mb-3">
                         <label for="name" class="form-label"><?= $ml->tr('name') ?></label>
                         <input type="text" name="name" id="name" class="form-control" placeholder="<?= $ml->tr('name_placeholder') ?>" required>
